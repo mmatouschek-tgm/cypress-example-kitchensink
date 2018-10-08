@@ -9,4 +9,4 @@ dependencies:
     - ~/.cache
 test:
   override:
-    - $(npm bin)/cypress run --record --key testkey123
+    - $(npm bin)/cypress run --key testkey123
